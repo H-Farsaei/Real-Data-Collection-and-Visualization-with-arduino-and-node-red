@@ -1,0 +1,10 @@
+Implement a data collection and visualization system using the IOT technologies. The requirements of this project are:
+1. Use Arduino hardware and DH-11 sensor to collect temperature and humidity samples.
+2. Build node-red flows to gather data from Arduino hardware connected to a laptop and store it somewhere (file/database/cloud).
+3. Prepare a dashboard on node-red to visualize streaming data, while they are visualized on a LCD screen connected to Arduino hardware.
+4. In the case of temperature over 30*C or humidity less than 30%, a red light should be turned on and user should be notified on Telegram and E-mail.
+5. Use node-red to read the data has been collected and produce a report containing the daily average, minimum and maximum of the measurements. The report should be sent to the user by email every midnight.
+
+
+Attention: This is a simpler project than main project due the main project has more details and needs more knowledge.
+
